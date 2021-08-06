@@ -51,10 +51,7 @@ else:
     temp_file.write(file.getvalue())
     test_image = image.load_img(temp_file.name, target_size = (64, 64))
     
-    fig = plt.figure()
-    plt.imshow(show_image)
-    plt.axis("off")
-    st.pyplot(fig)
+    st.image(show_image)
     
     test_image = image.img_to_array(test_image)
     
