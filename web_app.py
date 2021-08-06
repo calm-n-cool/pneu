@@ -1,6 +1,5 @@
 import tensorflow as tf
 import streamlit as st
-import matplotlib.pyplot as plt
 import numpy as np
 from keras.preprocessing import image
 from PIL import Image
